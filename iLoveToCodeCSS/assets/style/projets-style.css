@@ -1,0 +1,170 @@
+@import url(reset.css);
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../font/Roboto/roboto-black-webfont.woff2') format('woff2'),
+         url('../font/Roboto/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('../font/Roboto/roboto-thin-webfont.woff2') format('woff2'),
+         url('../font/Roboto/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.white-break-bg{
+    background-color: #f1eedc;
+}
+.dark-blue-bg{
+    background-color: #0c0e1c;
+}
+.white-break-text{
+    color: #f1eedc;
+}
+.dark-blue-text{
+    color: #0c0e1c;
+}
+
+
+/* SHAPES */
+#square{
+    width: 55px;
+    height: 55px;
+}
+#circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+/* NAVIGATION */
+header{
+    font-family: 'robotothin';
+}
+#navbar{
+    padding: 2.75rem;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/*MAIN*/
+h1{
+    text-align: center;
+    font-family: 'robotoblack';
+    font-size: 3.5rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+
+section#card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin: 0 13% 0 13%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px white;
+    height: 660px;
+    width: 350px;
+    background-position: right;
+    background-size: cover;
+    transition: .6s ease;
+    overflow: hidden;
+    z-index: 0;
+}
+
+section .card:hover{
+    background-position: left;
+    background-size: cover;
+}
+
+#cardOne{
+    background-image: url(../img/img-1.jpg);
+}
+#cardTwo{
+    background-image: url(../img/img-2.jpg);
+}
+#cardThree{
+    background-image: url(../img/img-3.jpg);
+}
+#cardFour{
+    background-image: url(../img/img-4.jpg);
+}
+section #cardOne:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../img/img-1.jpg);
+}
+section #cardTwo:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../img/img-2.jpg);
+}
+section #cardThree:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)) ,url(../img/img-3.jpg);
+}
+section #cardFour:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../img/img-4.jpg);
+} 
+.content{
+    text-align: center;
+    width: 100%;
+    margin-top: 160%;
+    z-index: 10;
+}
+.content h2{
+    font-size: 2rem;
+    font-family: 'robotoblack';
+    margin: 1rem;
+}
+.content p{
+    font-size: 1.4rem;
+    font-family: 'robotothin';
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    font-style: italic;
+}
+button{
+    font-family: 'robotothin';
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+section .card:hover .content{
+    margin-top: -17%;
+    transition: .6s ease;
+}
+section .card:hover .d-none{
+    display: block;
+    overflow: visible;
+    transition: .6s ease;
+}
+
+/* FOOTER  */
+a{
+    text-decoration: none;
+}
+footer{
+    font-family: 'robotothin';
+}
+#footer{
+    margin: 7rem 0 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+}
+footer ul li{
+    padding: 0.25rem;
+    font-size: 1.1rem;
+}
+.d-none{
+    display: none;
+}

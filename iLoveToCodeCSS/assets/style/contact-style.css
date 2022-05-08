@@ -1,0 +1,132 @@
+@import url(reset.css);
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../font/Roboto/roboto-black-webfont.woff2') format('woff2'),
+         url('../font/Roboto/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('../font/Roboto/roboto-thin-webfont.woff2') format('woff2'),
+         url('../font/Roboto/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.white-break-bg{
+    background-color: #f1eedc;
+}
+.dark-blue-bg{
+    background-color: #0c0e1c;
+}
+.white-break-text{
+    color: #f1eedc;
+}
+.dark-blue-text{
+    color: #0c0e1c;
+}
+
+header{
+    font-family: 'robotothin';
+}
+
+/* SHAPES */
+#square{
+    width: 55px;
+    height: 55px;
+}
+
+#circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+/* NAVIGATION */
+#navbar{
+    padding: 2.75rem;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/* section contact */
+#main{
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    font-family: 'robotothin';
+    text-align: center;
+    font-weight: 500;
+}
+#main p{
+    line-height: 30px;
+}
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+label{
+    display: block;
+    margin: 0.5rem;
+    text-align: left;
+}
+input{
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+button{
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'robotothin';
+    border: #0c0e1c 2px solid;
+    font-size: 30px;
+    margin: 1rem;
+}
+form{
+    border: 5px dashed #0c0e1c;
+}
+#form-container{
+    text-align: left;
+    margin: 1rem;
+}
+form div#form-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+div#demande label, div#demande textarea{
+    width: 100%;
+}
+#rectangle{
+    grid-row: span 4;
+    width: 100px;
+    height: 125px;
+    background-color: gray;
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+}
+
+/* FOOTER  */
+footer{
+    font-family: 'robotothin';
+}
+#footer{
+    margin: 8rem 0 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+}
+footer ul li{
+    padding: 0.25rem;
+    font-size: 1.1rem;
+}
