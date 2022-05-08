@@ -1,0 +1,43 @@
+@use "var" as *;
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 770px;
+}
+
+article.card{
+    width: 330px;
+    height: 650px;
+    box-shadow: 0px -1px 11px 0px rgba(255,255,255,1);
+    overflow: hidden;
+    div.img-container{
+        overflow: hidden;
+        height: 500px;
+        img{
+            height: 500px;
+            width: 330px;
+            object-fit: cover;
+            filter: sepia(100%);
+            transition: 0.6s ease;
+        }
+        img:hover{
+            filter: none;
+            transform: scale(1.25);
+        }
+    }
+    div{
+        display: grid;
+        margin-bottom: 15px;
+        p{
+            color: $primary;
+            padding: 10px;
+            text-align: center;
+        }
+        button{
+            padding: 10px 40px;
+            margin: 0 100px;
+        }
+    }
+}

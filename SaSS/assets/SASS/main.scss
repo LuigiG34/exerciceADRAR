@@ -1,0 +1,9 @@
+@use "_partials/var" as *;
+@use "_partials/nav";
+@use "_partials/section";
+@use "_partials/footer";
+
+body{
+    background-color: $secondary;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+@use "var" as *;
+
+footer{
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        li{
+            color: $primary;
+            font-size: $font-nav;
+        }
+    }
+}
