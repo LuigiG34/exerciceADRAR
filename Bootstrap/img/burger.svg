@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="30" viewBox="0 0 66 30">
+  <g id="burger" transform="translate(-1484.5 -178.5)">
+    <line id="Ligne_2" data-name="Ligne 2" x2="62" transform="translate(1486.5 180.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    <line id="Ligne_4" data-name="Ligne 4" x2="62" transform="translate(1486.5 193.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    <line id="Ligne_5" data-name="Ligne 5" x2="62" transform="translate(1486.5 206.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  </g>
+</svg>

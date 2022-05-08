@@ -1,0 +1,207 @@
+*{
+    font-family: 'Segoe UI';
+}
+.w-80{
+    width: 80%;
+}
+.w-26{
+    width: 26%!important;
+}
+.w-90{
+    width: 90%;
+}
+header{
+    background-image: url(img/graphisme-bg-header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 945px;
+}
+nav{
+    background: transparent!important;
+    border-bottom: 1px white solid;
+}
+.nav-link{
+    color: #f3f5fb8c;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 2rem;
+}
+.nav-link:hover{
+    color: #F3F5FB;
+}
+nav div form button.btn{
+    color: #3755be!important;
+    font-weight: 700;
+}
+a img#logo{
+    width: 70px;
+    height: 65px;
+}
+header nav div.container-fluid{
+    margin: 0 7rem;
+}
+header nav div form input{
+    background: transparent!important;
+    color: #fff;
+}
+::placeholder { 
+    color: white!important;
+    opacity: 1;
+}
+header nav div:nth-child(2){
+    margin: 0 10% 0 30%;
+}
+h1{
+    font-size: 77px;
+    font-weight: 700;
+}
+header article div p{
+    font-size: 23px;
+}
+header article div button:nth-child(2){
+    background: #1B1F3B;
+    font-weight: 700;
+}
+header article div button:nth-child(1){
+    color: #3755BE;
+    font-weight: 700;
+}
+
+
+
+
+
+h5.card-title{
+    font-weight: 700;
+    font-size: 27px;
+}
+p.card-text{
+    font-size: 19px;
+    text-align: left;
+}
+.card-img-top{
+    height: 375px;
+    object-fit: cover;
+}
+.card{
+    border: none!important;
+}
+
+
+
+
+.bg-grey{
+    background-color: #F3F5FB;
+}
+.carousel{
+    margin: auto;
+}
+div.carousel-indicators button{
+    background-color: black!important;
+    border-radius: 50%!important;
+}
+img.d-block{
+    height: 550px;
+}
+.carousel-indicators [data-bs-target] {
+    height: 10px!important;
+    width: 10px!important;
+}
+h2{
+    font-size: 27px;
+    font-weight: 700;
+}
+p#paragraphe-projet{
+    font-size: 22px;
+}
+img#img-projet{
+    height: 100%;
+    width: 100%;
+}
+article#article-projet{
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+h1#title-projet{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+h2#title-contact{
+    font-size: 27px;
+    font-weight: 700;
+}
+article#article-contact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+section#section-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion-button{
+    background-color: #F3F5FB!important;
+}
+.accordion-header{
+    background-color: #F3F5FB!important;
+}
+
+
+
+section#form-footer{
+    background-color: #1B1F3B;    
+    height: 595px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+section#form-footer form input::placeholder, section#form-footer form textarea::placeholder { 
+    color: white!important;
+    opacity: 1;
+}
+section#form-footer form input, section#form-footer form  textarea{
+    background: rgba(255, 255, 255, 0.5);
+    margin: 1rem 0;
+}
+input#btn-form-footer{
+    background-color: #3755BE!important;
+    padding: 0.25rem 2rem;
+    font-weight: 700;
+}
+img#img-form{
+    position: absolute;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+
+
+
+footer{
+    background-color: #3755BE;
+    width: 100%;
+    height: 150px;
+}
+p#copyright{
+    font-size: 15px;
+}
+article#footer-article{
+    margin-top: 6rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+#inscrire-btn{
+    color: #3755BE;
+    font-weight: 700;
+}
+i.bi{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
