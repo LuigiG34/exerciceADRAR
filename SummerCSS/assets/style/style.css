@@ -1,0 +1,229 @@
+@import url(reset.css);
+.font-580{
+    font-size: 580%;
+}
+.font-435{
+    font-size: 435%;
+}
+.font-300{
+    font-size: 300%;
+}
+h4{
+    font-family: Arial;
+}
+.font-250{
+    font-size: 250%;
+}
+h1, h2, h3{
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.light-text{
+    color: white;
+    font-size: 80%;
+}
+#text-red{
+    color: #D24D5C;
+}
+#text-orange{
+    color: #D86E4D;
+}
+#text-yellow{
+    color: #EABF3A;
+}
+p, a{
+    font-family: Roboto;
+    font-size: 1.1rem;
+}
+/*****NAV********/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img#logo{
+    padding: 1rem 0 0.25rem 0;
+}
+
+/*****SECTION 1*******/
+section#plage{
+	background-image: url("../img/plage.svg");
+	width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#plage-text{
+    color: #ffa180;
+    background-color: #fff;
+    width: 25%;
+    padding: 4%;
+    border-radius: 10%;
+    height: 45%;
+    margin-right: 35%;
+    margin-top: 7%;
+}
+p#paragraph-plage{
+    font-size: 170%;
+    padding: 1rem 0;
+    line-height: 105%;
+}
+
+
+/*****SECTION 2********/
+section#section-2{
+    color: #6ac7ce;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#uv-text{
+    width: 50%;
+}
+div#uv-text p{
+    width: 60%;
+    padding: 1rem 0;
+    line-height: 110%;
+}
+p.text-femme-uv{
+    font-size: 5%;
+    font-size: 150%;
+}
+
+article#rectangle-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10%;
+    margin-right: -70%;
+    position: absolute;
+}
+div#red{
+    background-color: #D24D5C;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    border-radius: 10%;
+}
+div#orange{
+    background-color: #D86E4D;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    border-radius: 10%;
+}
+div#yellow{
+    background-color: #EABF3A;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    border-radius: 10%;
+}
+
+/****SECTION 3****/
+section#section-3{
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    background-image: url(../img/mer-ciel.svg);
+    background-position: center;
+    background-size: 105%;
+    color: #166668;
+}
+div#title-s3{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 0 5%;
+}
+div#shema-text{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 16% 0% 0% 8%;
+    position: absolute;
+}
+
+div#text-shema{
+    background-color: white;
+    margin: 0% 0 0 3%;
+    padding: 2rem;
+    border-radius: 10%;
+    height: 450px;
+    width: 300px;
+}
+
+p.font-150{
+    font-size: 150%;
+}
+/****SECTION 4*****/
+section#section-4{
+    background-color: #ffe07b;
+    width: 100%;
+    height: 1000px;
+    color: #DF3502;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#img-bandeau{
+    position: absolute;
+    margin: -5% 0% 0% 0%;
+}
+div#bandeau{
+    display: flex;
+    justify-content: center;
+}
+div#indice{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    margin: -6% 0% 0% 0%;
+}
+div#text-s4{
+    width: 40%;
+    position: absolute;
+    padding-left: 10%;
+}
+p.s4-parag{
+    font-size: 150%;
+    width: 85%;
+}
+img#s4-img{
+    padding-right: 40%;
+}
+img.indice-img{
+    /* position: absolute; */
+}
+
+
+/**SECTION 5**/
+section#section-5{
+    color: #6AC7CE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+    background-image: url(../img/decors-jaune.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+.title-s5{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.s5-part2{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-top: 3%;
+}

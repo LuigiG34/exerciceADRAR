@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240.116" height="240.116" viewBox="0 0 240.116 240.116">
+  <g id="indice-parasol" transform="translate(-23.219 -23.219)">
+    <g id="OBJECTS" transform="translate(0 0)">
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="120.058" cy="120.058" rx="120.058" ry="120.058" transform="translate(23.219 23.219)" fill="#f3e5c0"/>
+      <path id="Tracé_388" data-name="Tracé 388" d="M113.272,36.017C85.775,33.786,62.07,20.79,43.05,6.93v99.31Z" transform="translate(100.211 35.608)" fill="#d24d5c"/>
+      <path id="Tracé_389" data-name="Tracé 389" d="M88.092,6.93A181.273,181.273,0,0,1,17.87,36.017L88.092,106.24Z" transform="translate(55.169 35.608)" fill="#eabf3a"/>
+      <path id="Tracé_390" data-name="Tracé 390" d="M36.527,17.36C35.328,45.025,22.583,68.869,7.44,87.582h99.309Z" transform="translate(36.512 54.265)" fill="#d24d5c"/>
+      <path id="Tracé_391" data-name="Tracé 391" d="M142.359,87.582C126.575,65.83,114.444,41.455,113.272,17.36L43.05,87.582Z" transform="translate(100.211 54.265)" fill="#eabf3a"/>
+      <path id="Tracé_392" data-name="Tracé 392" d="M43.05,141.822a150.6,150.6,0,0,1,70.222-29.087L43.05,42.54Z" transform="translate(100.211 99.307)" fill="#eabf3a"/>
+      <path id="Tracé_393" data-name="Tracé 393" d="M43.05,42.54l70.222,70.194A128.285,128.285,0,0,1,142.359,42.54Z" transform="translate(100.211 99.307)" fill="#d24d5c"/>
+      <path id="Tracé_394" data-name="Tracé 394" d="M17.87,112.734a129.373,129.373,0,0,1,70.222,29.087V42.54Z" transform="translate(55.169 99.307)" fill="#d24d5c"/>
+      <path id="Tracé_395" data-name="Tracé 395" d="M7.44,42.54c23.538,23.593,28.111,49.5,29.087,70.194L106.749,42.54Z" transform="translate(36.512 99.307)" fill="#eabf3a"/>
+    </g>
+  </g>
+</svg>
