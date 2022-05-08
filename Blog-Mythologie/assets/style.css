@@ -1,0 +1,69 @@
+.css-selector {
+    background: linear-gradient(141deg, #ff0000, #ff00df, #0600ff);
+    background-size: 600% 600%;
+
+    -webkit-animation: gradientBackground 4s ease-in-out infinite;
+    -moz-animation: gradientBackground 4s ease-in-out infinite;
+    -o-animation: gradientBackground 4s ease-in-out infinite;
+    animation: gradientBackground 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes gradientBackground {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-moz-keyframes gradientBackground {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-o-keyframes gradientBackground {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@keyframes gradientBackground {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+.dark-background{
+    background-color: #000;
+}
+
+.text {
+	background: linear-gradient(141deg, #2f00ff, #ff00df, #ff0000);
+	background-size: 600% 600%;
+	font-weight: 900!important;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 30%; }
+	50% { background-position: 100% 96%; }
+	100% { background-position: 0px 5%; }
+}
+
+.link {
+	background: linear-gradient(141deg, #2f00ff, #ff00df, #ff0000);
+	background-size: 600%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+}
+a.link:hover{
+    border-bottom: 1px solid white;
+}
+img{
+    height: 250px;
+    width: 250px;
+}

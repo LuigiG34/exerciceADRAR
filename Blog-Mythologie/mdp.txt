@@ -1,0 +1,5 @@
+user : admin
+mdp : admin
+
+user : standard
+mdp : standard
