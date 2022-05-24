@@ -1,0 +1,14 @@
+table, td, tr, th{
+    border: 1px solid black;
+}
+table{
+    margin-bottom: 1rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+input{
+    margin-bottom: 1rem;
+}
