@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+img.svg{
+    width: 40px;
+    height: 40px;
+}
+img.svg:hover{
+    filter: invert(43%) sepia(0%) saturate(1283%) hue-rotate(213deg) brightness(111%) contrast(102%);
+}
+#next{
+    top: 16%;
+    right: 41%;
+    position: absolute;
+}
+#previous{
+    top: 16%;
+    position: absolute;
+}
+.active{
+    display: block!important;
+}
+.carousel-img{
+    display: none;
+}
