@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODAL JS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--MAIL MODAL-->
+    <section class="modal-container mail-container d-none">
+        <article class="modal mail-modal">
+            <div class="close-container">
+                <img class="close-btn x-mail" src="assets/img/x-square.svg">
+            </div>
+            <div class="content">
+                <img src="assets/img/mail-box.png" class="logo mail">
+                <div class="content-text">
+                    <h1>Rester à l'écoute des nouvelles</h1>
+                    <hr>
+                    <p>Une newsletter clair et efficace</p>
+                    <p>- Une seule par mois</p>
+                    <p>- Nous ne communiquons votre adresse à personne</p>
+                    <p>- Du contenu pertinent en relation avec vos préférences</p>
+                    <hr>
+                    <p class="label">Votre adresse électronique</p>
+                    <input type="email" name="email" id="email" placeholder="Email...">
+                    <hr>
+                    <button class="valid">Valider</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--MAIL MODAL-->
+
+    <!--Cookie MODAL-->
+    <section class="modal-container cookie-container d-none">
+        <article class="modal cookie-modal">
+            <div class="close-container">
+                <img class="close-btn x-cookies" src="assets/img/x-square.svg">
+            </div>
+            <div class="content">
+                <img src="assets/img/cookies.png" class="logo cookie">
+                <div class="content-text">
+                    <h1>Votre vie privée nous concerne</h1>
+                    <hr>
+                    <p>Notre site et ses partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour :</p>
+                    <p>- Mesure d'audience,</p>
+                    <p>- Fonctionnalités liées aux réseaux sociaux,</p>
+                    <p>- Contenu personnalisé et mesure de performance du contenu,</p>
+                    <p>- Publicités personnalisées, mesure de performance des publicités et données d'audience,</p>
+                    <p>- Développer et améliorer les produits,</p>
+                    <p>- Données de géolocalisation précises et identification par analyse du terminal</p>
+                    <hr>
+                    <div class="row">
+                        <p class="action-modal">Paramétrer</p>
+                        <p class="borders action-modal">Je n'accepte rien</p>
+                        <p class="action-modal">J'accepte tout</p> 
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--Cookie MODAL-->
+
+    <!--SIGN UP/IN MODAL-->
+    <section class="modal-container sign-container d-none">
+        <article class="modal sign-modal">
+            <div class="close-container">
+                <img class="close-btn x-sign" src="assets/img/x-square.svg">
+            </div>
+            <div class="content">
+                <img src="assets/img/login-logo.png" class="logo mail">
+                <div class="content-text flex-row w-100">
+                    <div class="sign-up w-100 flex-col">
+                        <h2>INSCRIPTION</h2>
+                        <input type="email" placeholder="Taper votre email ici...">
+                        <input type="password" placeholder="Taper votre mot de passe...">
+                        <input type="password" placeholder="Retaper votre mot de passe...">
+                        <button>S'inscrire</button>
+                    </div>
+                    <hr class="hr-sign">
+                    <div class="sign-in w-100 flex-col">
+                        <h3>CONNEXION</h3>
+                        <input type="email" placeholder="Taper votre email ici...">
+                        <input type="password" placeholder="Taper votre mot de passe...">
+                        <a href="#">Mot de passe oublié ?</a>
+                        <button>Se connecter</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--SIGN UP/IN MODAL-->
+
+    <section class="section-flex">
+        <img class="img-btn" src="assets/img/login.png" id="sign-btn">
+        <img class="img-btn" src="assets/img/email.png" id="email-btn">
+        <img class="img-btn" src="assets/img/cookie.png" id="cookie-btn">
+    </section>
+
+    <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>
